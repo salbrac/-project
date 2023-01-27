@@ -20,12 +20,8 @@
 
     1. tensorflow版本和numpy版本不匹配、爆出warning！
         正确的版本之一：
-        >>> import tensorflow
-        >>> print(tensorflow.__version__)
-        1.14.0
-        >>> import numpy
-        >>> print(numpy.__version__)
-        1.16.0
+        tensorflow 1.14.0
+        numpy 1.16.0
 
     2. 没有ds_ctcdecoder
         DeepSpeech 和项目文件 在同一目录下
